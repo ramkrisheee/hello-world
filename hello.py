@@ -1,11 +1,10 @@
+def main ():
+    p= int(input("Enter a number: "))
+    q= int(input("Enter another number: "))
+    PRODUCT(p,q)
+    
+def PRODUCT(a,b):
+    c = a * b
+    print("The product of", a, "and", b, "is", c)   
 
-
-a=100
-for i in range(1,1):
-    a=i+a
-    print(a)
-
-#function to add two numbers
-def add_numbers(x, y):
-    return x / y        
-print(add_numbers(5, 3))
+main()
